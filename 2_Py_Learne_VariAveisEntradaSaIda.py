@@ -39,4 +39,22 @@ def main():
     saida = Inp1 + Inp2
 
     print("A Soma de", Inp1, "com", Inp2, "é: ",saida)
+
+    # Exercicio 2.4 (passando argumento na função print e imprimindo na tela mudando o separador)
+    # \r\n -> CRLF
+    # \n -> LF
+    # end='#' -> inclui e não quebra a linha
+    print(12, 34, 1011, sep="", end='#')
+    print(56, 78, sep='-', end='\n')
+    print(9, 10, sep='-', end='\n')
+
+    # Exercicio 2.5 (inserindo aspas duplas, assim tendo que iniciar com aspas simples)
+    print('Luiz "Otávio"')
+    
+     # Exercicio 2.6 (Caractere de Escape, para inserir aspas duplas por exemplo, o caractere apos o "/" será ignorado)
+    print("Luiz \"Otávio\"")
+
+    # Exercicio 2.7 (r -> para espreções regulares)
+    print(r"Luiz \"Otávio\"")
+    
 main()
