@@ -1,5 +1,7 @@
 def main():
     # Uma variável é um nome que se refere a u valor
+    """ DocString - Usar para escrever suas notas em diversas linhas """
+    ''' DocString - Usar para escrever suas notas em diversas linhas'''
     # Uma Atribuição - Comando de atribuição cria uma nova variável e lhe dá um valor (set -> Setando -> Atribuindo um valor)
     # Tipos Primitivos
         # int/long
@@ -13,6 +15,9 @@ def main():
         # get -> recuperando o valor de uma váriavel
         # iNPUT -> metodo input serve para receber dados do usuário
         # Cast -> se trta da conversão de tipo de váriavel
+    # Input/Output
+        # print('Ola mundo') -> imprimi na tela
+        # input("Digite aqui: ") -> insere entrada de valores pelo usuário
     # pass
 
     # Exercicio 2.1 (Calcule a multiplicação enrte 2 valores setados)
