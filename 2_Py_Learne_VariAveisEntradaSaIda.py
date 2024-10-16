@@ -3,6 +3,15 @@ def main():
     """ DocString - Usar para escrever suas notas em diversas linhas """
     ''' DocString - Usar para escrever suas notas em diversas linhas'''
     # Uma Atribuição - Comando de atribuição cria uma nova variável e lhe dá um valor (set -> Setando -> Atribuindo um valor)
+   """ 
+    Variáveis são usadas para salvar algo na memória do computador.
+    PEP8: inicie variáveis com letras minúsculas, pode usar
+    números e underline _.
+    O sinal de = é o operador de atribuição. Ele é usado para
+    atribuir um valor a um nome (variável).
+    Uso: nome_variavel = expressão 
+    """
+    
     # Tipos Primitivos
         # int/long ( int -> Número inteiro  - O tipo int representa qualquer número positivo ou negativo.
         # float ( Número com ponto flutuante - O tipo float representa qualquer número positivo ou negativo com ponto flutuante.
