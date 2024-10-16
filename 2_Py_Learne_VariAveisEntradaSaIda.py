@@ -4,8 +4,8 @@ def main():
     ''' DocString - Usar para escrever suas notas em diversas linhas'''
     # Uma Atribuição - Comando de atribuição cria uma nova variável e lhe dá um valor (set -> Setando -> Atribuindo um valor)
     # Tipos Primitivos
-        # int/long
-        # float
+        # int/long ( int -> Número inteiro  - O tipo int representa qualquer número positivo ou negativo.
+        # float ( Número com ponto flutuante - O tipo float representa qualquer número positivo ou negativo com ponto flutuante.
         # bool –> True/False
         # Str -> String
         # Tuple -> Registros
@@ -56,5 +56,10 @@ def main():
 
     # Exercicio 2.7 (r -> para espreções regulares)
     print(r"Luiz \"Otávio\"")
+
+    # Exercicio 2.8 (A função type mostra o tipo que o Python
+    print(type('Otávio'))
+    print(type(0))
+    print(type(1.1), type(-1.1), type(0.0))
     
 main()
