@@ -78,9 +78,9 @@ def main():
     Res = T1 + T2
 
     print("A soma de {0} com {1} é: {2}".format(T1, T2, Res))
-    #F-string
-    print(f"A soma de {T1} com {T2} é: {Res}")
-    #F-string - formata tratando as casas decimais
+    # F-string
+    print(f"A soma de {T1} com {T2} é: {Res:.2f}")
+    # F-string - formata tratando as casas decimais
     print("A soma de {:2f} com {:2f} é: {:2f}".format(T1, T2, Res))
     
 main()
