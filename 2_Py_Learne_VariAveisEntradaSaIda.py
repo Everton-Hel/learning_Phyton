@@ -13,6 +13,7 @@ def main():
     """
     
     # Tipos Primitivos
+        # Ellipsis (... -> insirir o 3 pontinho tem a ação de que irá continuar e assim consegue debugar sem erros)
         # int/long ( int -> Número inteiro  - O tipo int representa qualquer número positivo ou negativo.
         # float ( Número com ponto flutuante - O tipo float representa qualquer número positivo ou negativo com ponto flutuante.
         # bool –> True/False
