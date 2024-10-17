@@ -86,5 +86,7 @@ def main():
     # Exercicio 3.0 (è possível buscar por indice o caracter da String)
     Text0 = "Curso de Python"
     Print(Text0[2])
+     # Exercicio 3.1 (è possível buscar por indice o caracter da String buscando o final)
+    Print(Text0[-2])
     
 main()
