@@ -88,5 +88,20 @@ def main():
     Print(Text0[2])
      # Exercicio 3.1 (è possível buscar por indice o caracter da String buscando o final)
     Print(Text0[-2])
+    # Exercicio 3.2 (è possível pesquisar um caractere)
+    'z' in Text0
+    'z' not in Text0
+    # Exercicio 3.3 (Alterando o tamanho da caixa da fonte - minusculo/maiusculo)
+    Text0 = Text0.upper()
+    Text0 = Text0.lower()
+    # Exercicio 3.3 (Verifica o tamanho/quantidade da variavel)
+    print(len(Text0))
+    # Exercicio 3.4 (Removendo espaços a mais da String)
+    Text0.strip()
+    # Exercicio 3.5 (Juntando itens da string através de um delimitador)
+    ",".join(Text0)
+    # Exercicio 3.5 (Separando uma string através de um delimitador)
+    Text0.split(",")
+    
     
 main()
