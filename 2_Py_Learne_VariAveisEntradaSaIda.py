@@ -71,11 +71,15 @@ def main():
     print(type(0))
     print(type(1.1), type(-1.1), type(0.0))
 
-    # Exercicio 2.9 (Incluindo a função format)
+    # Exercicio 2.9 (Incluindo formatações com String tendo a função format)
     T1 = 2
     T2 = 3
     Res = T1 + T2
 
     print("A soma de {0} com {1} é: {2}".format(T1, T2, Res))
+    #F-string
+    print(f"A soma de {T1} com {T2} é: {Res}")
+    #F-string - formata tratando as casas decimais
+    print("A soma de {:2f} com {:2f} é: {:2f}".format(T1, T2, Res))
     
 main()
