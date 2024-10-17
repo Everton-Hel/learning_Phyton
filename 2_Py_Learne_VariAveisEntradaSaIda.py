@@ -82,5 +82,9 @@ def main():
     print(f"A soma de {T1} com {T2} é: {Res:.2f}")
     # F-string - formata tratando as casas decimais
     print("A soma de {:2f} com {:2f} é: {:2f}".format(T1, T2, Res))
+
+    # Exercicio 3.0 (è possível buscar por indice o caracter da String)
+    Text0 = "Curso de Python"
+    Print(Text0[2])
     
 main()
