@@ -35,4 +35,11 @@ for nota in notas:
                 print(f' - Portanto ele foi reprovado')
     else:
         print("Tem algo errado/nPossivelmente algum aluno não fez a prova")
+
+
+# Utilizando a função "enumerate()" consegue além do valor o indice do char
+lista = ['E','v','e','r','t','o','n']
+for indiceKey, valor in enumerate(lista):
+    print(indiceKey, valor)
+
 main()
