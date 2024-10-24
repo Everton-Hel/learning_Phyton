@@ -6,15 +6,15 @@ def main():
     alunos.append('NovoAluno')
     for ContadorAluno in alunos:
         print(ContadorAluno)
-# -------------------------------------------------------------------------------
-# Para utilizarmos um intervalo no FOR (de X até Y) podemos usar a função "RANGE"
-notas = []
-# Com a função range() podemos fazer o bloco FOR interar quantas vezes definirmos
-for i in range(4,11):
-    notas.append(i)
-for nota in notas:
-    print(nota)
-# -------------------------------------------------------------------------------
+    # -------------------------------------------------------------------------------
+    # Para utilizarmos um intervalo no FOR (de X até Y) podemos usar a função "RANGE"
+    notas = []
+    # Com a função range() podemos fazer o bloco FOR interar quantas vezes definirmos
+    for i in range(4,11):
+        notas.append(i)
+    for nota in notas:
+        print(nota)
+    # -------------------------------------------------------------------------------
     # Todos os possíveis alunos
     alunos = ['Aluno1', 'Aluno2', 'Aluno3', 'Aluno4']
 
@@ -37,9 +37,22 @@ for nota in notas:
         print("Tem algo errado/nPossivelmente algum aluno não fez a prova")
 
 
-# Utilizando a função "enumerate()" consegue além do valor o indice do char
-lista = ['E','v','e','r','t','o','n']
-for indiceKey, valor in enumerate(lista):
-    print(indiceKey, valor)
+    # Utilizando a função "enumerate()" consegue além do valor o indice do char
+    lista = ['E','v','e','r','t','o','n']
+    for indiceKey, valor in enumerate(lista):
+        print(indiceKey, valor)
+
+    # ------------------------------------------------------------------
+    # O comando Break tem a função de parar o looping e sair
+    for x in range(10,20):
+        print(x)
+        if x ==15:
+            break
+    # ------------------------------------------------------------------
+    # O comando continue tem a função de pular aquela passada do looping e continuar a proxima passada
+    for c in range(10, 20):
+        if c == 15:
+            continue
+        print(c)
 
 main()
