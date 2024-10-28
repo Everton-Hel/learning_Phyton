@@ -33,6 +33,12 @@ def main():
         if c ==3:
             continue
         print(c)
-            
+# ------------------------------------------------------------------
+# Extra: ha possibilidade de por o "while" junto ao "FOR", na qual irá rodar após a interação
+    while I in < 5:
+        print(I)
+        I += 1
+    else:
+        Print("Apos o laço a iteração")
 
 main()
