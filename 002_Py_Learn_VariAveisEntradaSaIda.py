@@ -14,6 +14,7 @@ def main():
     
     # Tipos Primitivos
         # Ellipsis (... -> insirir o 3 pontinho tem a ação de que irá continuar e assim consegue debugar sem erros)
+        # Ellipsis (pass ->  tem a ação de que irá continuar e assim consegue debugar sem erros)
         # int/long ( int -> Número inteiro  - O tipo int representa qualquer número positivo ou negativo.
         # float ( Número com ponto flutuante - O tipo float representa qualquer número positivo ou negativo com ponto flutuante.
         # bool –> True/False
@@ -30,6 +31,12 @@ def main():
         # input("Digite aqui: ") -> insere entrada de valores pelo usuário
     # pass
 
+    # Exercicio 2.0 (Verificando o identificado da memoria por variavel)
+    v1 = 'a'
+    v2 = 2
+    print(id(v1))
+    print(id(v2))
+    
     # Exercicio 2.1 (Calcule a multiplicação enrte 2 valores setados)
     a = 5
     b = 6
