@@ -54,5 +54,11 @@ def main():
         if c == 15:
             continue
         print(c)
+    # ------------------------------------------------------------------
+    # Extra: ha possibilidade de por o "ELSE" junto ao "FOR", na qual irá rodar após a interação
+    for I in range(5):
+        print(I)
+    else:
+        Print("Apos o laço a iteração")
 
 main()
