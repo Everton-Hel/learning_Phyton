@@ -8,14 +8,18 @@ def main():
             informe se este número é par ou ímpar. Caso o usuário não digite um número
             inteiro, informe que não é um número inteiro.
             """
+            # Ha 2 forma de fazer, utilizando o try/except ou if entrada.isdigit(): que irá verificar se é apenas números
+            # Estarei comentando a opção do isdigit e assim podendo inverter
             V1 = input("Entre com um número inteiro: ")
             try:
+            # V1.isdigit(): # ubstitui o 'try' verificando sé é apenas numerico
                 V1_int = int(V1)
                 if V1_int % 2 == 0:
                     print(f"O número {V1_int} é Par")
                 else:
                     print(f"O número {V1_int} é Impar")
             except:
+            # else: # substitui o 'except'
                 print(f"O valor digitado: {V1} Não é um número inteiro")
         #------------------------------------------------------------------------------------
         elif exercicio_int == 2:
@@ -24,8 +28,11 @@ def main():
             descrito, exiba a saudação apropriada. Ex. 
             Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
             """
+            # Ha 2 forma de fazer, utilizando o try/except ou if entrada.isdigit(): que irá verificar se é apenas números
+            # Estarei comentando a opção do isdigit e assim podendo inverter            
             hora = input("Informe apenas a HORA: ")
             try:
+            # hora.isdigit(): # ubstitui o 'try' verificando sé é apenas numerico
                 hora_int = int(hora)
                 if (hora_int >= 0 and hora_int <= 11):
                     print("Bom dia")
@@ -36,6 +43,7 @@ def main():
                 else:
                     print(f"Valor digitado: {hora_int} é inregular.")
             except:
+            # else: # substitui o 'except'
                 print(f"O valor digitado: {hora_int} Não é um número inteiro")
         #------------------------------------------------------------------------------------
         elif exercicio_int == 3:
@@ -55,6 +63,7 @@ def main():
                     print("Seu nome é muito grande")
                 elif nome_usuario == '':
                     print(f"Não foi digitado nenhum nome")
+
             except:
                 print(f"O nome de usuário digitado: {nome_usuario} não é valido")
 
