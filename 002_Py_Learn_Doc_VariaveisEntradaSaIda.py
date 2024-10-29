@@ -1,4 +1,6 @@
 def main():
+    # Documentação Phyton - https://docs.python.org/pt-br/3/library/stdtypes.html
+    #
     # Uma variável é um nome que se refere a u valor
     """ DocString - Usar para escrever suas notas em diversas linhas """
     ''' DocString - Usar para escrever suas notas em diversas linhas'''
@@ -31,84 +33,89 @@ def main():
         # input("Digite aqui: ") -> insere entrada de valores pelo usuário
     # pass
 
-    # Exercicio 2.0 (Verificando o identificado da memoria por variavel)
+    # Exemplo 1.0 -> (Verificando o identificado da memoria por variavel)
     v1 = 'a'
     v2 = 2
     print(id(v1))
     print(id(v2))
     
-    # Exercicio 2.1 (Calcule a multiplicação enrte 2 valores setados)
+    # Exemplo 2.0 -> (Calcule a multiplicação enrte 2 valores setados)
     a = 5
     b = 6
     r = a * b
     print("A soma de", a, "com", b, "e: ", r)
 
-    # Exercicio 2.2 (Calcule a SOMA enrte 2 valores de entrada, convertendo a entrada de estring para inteiro)
+    # Exemplo 3.0 -> (Calcule a SOMA enrte 2 valores de entrada, convertendo a entrada de estring para inteiro)
     Inp1 = int(input("Entre com o primeiro valor:"))
     Inp2 = int(input("Entre com o segundo valor:"))
     saida = Inp1 + Inp2
-
     print("A Soma de", Inp1, "com", Inp2, "é: ",saida)
 
-    # Exercicio 2.3 (Calcule a SOMA enrte 2 valores de entrada, convertendo a entrada de estring para float)
+    # Exemplo 4.0 -> (Calcule a SOMA enrte 2 valores de entrada, convertendo a entrada de estring para float)
     Inp1 = float(input("Entre com o primeiro valor:"))
     Inp2 = float(input("Entre com o segundo valor:"))
     saida = Inp1 + Inp2
-
     print("A Soma de", Inp1, "com", Inp2, "é: ",saida)
 
-    # Exercicio 2.4 (passando argumento na função print e imprimindo na tela mudando o separador)
+    # Exemplo 5.0 -> (passando argumento na função print e imprimindo na tela mudando o separador)
     # \r\n -> CRLF
-    # \n -> LF
+    # \n -> realiza a quebra de linha (no Linux o LF realiza a quebra de linha)
     # end='#' -> inclui e não quebra a linha
+    #sep = '-' -> em uma lista a vigula como padram inseri o "espaço" como separador, ou utilizando a função "sep" pode alterar o separador
     print(12, 34, 1011, sep="", end='#')
     print(56, 78, sep='-', end='\n')
     print(9, 10, sep='-', end='\n')
 
-    # Exercicio 2.5 (inserindo aspas duplas, assim tendo que iniciar com aspas simples)
+    # Exemplo 6.0 -> (inserindo aspas duplas, deve iniciar e finalizar com com aspas simples)
     print('Luiz "Otávio"')
     
-     # Exercicio 2.6 (Caractere de Escape, para inserir aspas duplas por exemplo, o caractere apos o "/" será ignorado)
+     # Exemplo 7.0 -> (Caractere de Escape, para inserir aspas duplas por exemplo, o caractere apos o "/" será ignorado)
     print("Luiz \"Otávio\"")
 
-    # Exercicio 2.7 (r -> para espreções regulares)
+    # Exercicio 8.0 -> (r -> para expreções regulares)
     print(r"Luiz \"Otávio\"")
 
-    # Exercicio 2.8 (A função type mostra o tipo que o Python
+    # Exemplo 9.0 -> (A função type mostra o tipo da variavel no Python)
     print(type('Otávio'))
     print(type(0))
     print(type(1.1), type(-1.1), type(0.0))
 
-    # Exercicio 2.9 (Incluindo formatações com String tendo a função format)
+    # Exemplo 10.0 -> (Incluindo formatações com String tendo a função format)
     T1 = 2
     T2 = 3
     Res = T1 + T2
-
+    # Format
     print("A soma de {0} com {1} é: {2}".format(T1, T2, Res))
+    # format -> tratando as casas decimais
+    print("A soma de {:2f} com {:2f} é: {:2f}".format(T1, T2, Res))
     # F-string
     print(f"A soma de {T1} com {T2} é: {Res:.2f}")
-    # F-string - formata tratando as casas decimais
-    print("A soma de {:2f} com {:2f} é: {:2f}".format(T1, T2, Res))
 
-    # Exercicio 3.0 (è possível buscar por indice o caracter da String)
+    # Exemplo 11.0 -> (É possível buscar por indice o caracter da String)
     Text0 = "Curso de Python"
     Print(Text0[2])
-     # Exercicio 3.1 (è possível buscar por indice o caracter da String buscando o final)
+    
+     # Exemplo 12.0 -> (E possível buscar por indice o caracter da String buscando o final)
     Print(Text0[-2])
-    # Exercicio 3.2 (è possível pesquisar um caractere)
+    
+    # Exemplo 13.0 -> (Verificando/pesquisando um caractere dentro de uma variavel)
     'z' in Text0
     'z' not in Text0
-    # Exercicio 3.3 (Alterando o tamanho da caixa da fonte - minusculo/maiusculo)
-    Text0 = Text0.upper()
-    Text0 = Text0.lower()
-    # Exercicio 3.3 (Verifica o tamanho/quantidade da variavel)
+    
+    # Exemplo 14.0 -> (Verifica o tamanho/quantidade da variavel)
     print(len(Text0))
-    # Exercicio 3.4 (Removendo espaços a mais da String)
-    Text0.strip()
-    # Exercicio 3.5 (Juntando itens da string através de um delimitador)
+    
+    # Exemplo 15.0 -> (Alterando o tamanho da caixa da fonte - maiusculo/minusculo)
+    Text0 = Text0.upper()
+    Text0 = Text0.lower()    
+    # Exemplo 16.0 -> (Removendo espaços a mais da String)
+    print(Text0.strip())
+    # Exemplo 17.0 -> (Juntando itens da string através de um delimitador)
     ",".join(Text0)
-    # Exercicio 3.5 (Separando uma string através de um delimitador)
-    Text0.split(",")
+    # Exemplo 18.0 -> (Separando uma string através de um delimitador)
+    print(Text0.split(","))
+    # Exemplo 19.0 -> (Incluindo 10 zero a esquerda
+    print(Text0.zfill(10))
     
     
 main()
