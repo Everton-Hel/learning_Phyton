@@ -1,3 +1,7 @@
+"""
+Operadores de atribuição - tb pode ser tratado com String, assim irá repetir a String conforme o operador
+= += -= *= /= //= **= %=
+"""
 # Precedencia de operadores aritméticos
   # 1. (n + n)
   # 2. **
