@@ -12,8 +12,7 @@ def main():
     O sinal de = é o operador de atribuição. Ele é usado para
     atribuir um valor a um nome (variável).
     Uso: nome_variavel = expressão 
-    """
-    
+    """    
     # Tipos Primitivos
         # Ellipsis (... -> insirir o 3 pontinho tem a ação de que irá continuar e assim consegue debugar sem erros)
         # Ellipsis (pass ->  tem a ação de que irá continuar e assim consegue debugar sem erros)
@@ -79,8 +78,16 @@ def main():
     print(type('Otávio'))
     print(type(0))
     print(type(1.1), type(-1.1), type(0.0))
+    # Exemplo 10.0 -> ("len" tem a ação de verificar a quantidade de caracteres da variavel)
+    print(f'Seu nome tem {len(nome)} letras')
+    # Exemplo 11.0 -> (Imprimindo apenas o primeiro caractere)
+    print(f'A primeira letra do seu nome é {nome[0]}')
+    # Exemplo 12.0 -> (Impriminto o ultimo caractere) 
+    print(f'A última letra do seu nome é {nome[-1]}')
+    # Exemplo 13.0 -> (Imprimindo invertido os caracteres)
+    print(f'Seu nome invertido é {nome[::-1]}')
 
-    # Exemplo 10.0 -> (Incluindo formatações com String tendo a função format)
+    # Exemplo 14.0 -> (Incluindo formatações com String tendo a função format)
     T1 = 2
     T2 = 3
     Res = T1 + T2
@@ -91,30 +98,26 @@ def main():
     # F-string
     print(f"A soma de {T1} com {T2} é: {Res:.2f}")
 
-    # Exemplo 11.0 -> (É possível buscar por indice o caracter da String)
+    # Exemplo 15.0 -> (É possível buscar por indice o caracter da String)
     Text0 = "Curso de Python"
-    Print(Text0[2])
-    
-     # Exemplo 12.0 -> (E possível buscar por indice o caracter da String buscando o final)
-    Print(Text0[-2])
-    
-    # Exemplo 13.0 -> (Verificando/pesquisando um caractere dentro de uma variavel)
+    Print(Text0[2])    
+     # Exemplo 15.0 -> (E possível buscar por indice o caracter da String buscando o final)
+    Print(Text0[-2])    
+    # Exemplo 16.0 -> (Verificando/pesquisando um caractere dentro de uma variavel)
     'z' in Text0
-    'z' not in Text0
-    
-    # Exemplo 14.0 -> (Verifica o tamanho/quantidade da variavel)
-    print(len(Text0))
-    
-    # Exemplo 15.0 -> (Alterando o tamanho da caixa da fonte - maiusculo/minusculo)
+    'z' not in Text0    
+    # Exemplo 17.0 -> (Verifica o tamanho/quantidade da variavel)
+    print(len(Text0))    
+    # Exemplo 18.0 -> (Alterando o tamanho da caixa da fonte - maiusculo/minusculo)
     Text0 = Text0.upper()
     Text0 = Text0.lower()    
-    # Exemplo 16.0 -> (Removendo espaços a mais da String)
+    # Exemplo 19.0 -> (Removendo espaços a mais da String)
     print(Text0.strip())
-    # Exemplo 17.0 -> (Juntando itens da string através de um delimitador)
+    # Exemplo 20.0 -> (Juntando itens da string através de um delimitador)
     ",".join(Text0)
-    # Exemplo 18.0 -> (Separando uma string através de um delimitador)
+    # Exemplo 21.0 -> (Separando uma string através de um delimitador)
     print(Text0.split(","))
-    # Exemplo 19.0 -> (Incluindo 10 zero a esquerda
+    # Exemplo 22.0 -> (Incluindo 10 zero a esquerda
     print(Text0.zfill(10))
     
     
