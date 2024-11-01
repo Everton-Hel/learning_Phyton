@@ -31,6 +31,10 @@ def main():
         # print('Ola mundo') -> imprimi na tela
         # input("Digite aqui: ") -> insere entrada de valores pelo usuário
     # pass
+    # Exemplo de String, pode ser quebrado em 1 ou mais linhas, aonde a "/" indica a quebra de linha
+    Frase = 'texto 1'\
+            'texto 2' \
+            'texto 3' \
 
     # Exemplo 1.0 -> (Verificando o identificado da memoria por variavel)
     v1 = 'a'
