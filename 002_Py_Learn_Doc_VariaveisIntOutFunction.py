@@ -123,6 +123,8 @@ def main():
     print(Text0.split(","))
     # Exemplo 22.0 -> (Incluindo 10 zero a esquerda
     print(Text0.zfill(10))
+    # Exemplo 23.0 -> (A função 'count' tem a ação de contar a quantidade existente de cada caractere na frase)
+    qtd_letra = frase.count(letra_atual)
     
     
 main()
