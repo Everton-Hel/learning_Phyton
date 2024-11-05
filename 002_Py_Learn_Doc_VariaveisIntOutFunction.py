@@ -35,6 +35,15 @@ def main():
     Frase = 'texto 1'\
             'texto 2' \
             'texto 3' \
+    # Exemplo da função Range
+    """
+    For + Range
+    range -> range(start, stop, step) -> na função "range" pode inserir o inicio e fim do contador + o step que é forer a alteração/pula de x valor
+    também pode ser inserido valor negativo, mas deve alterar o star e stop Exemplo: "for valor in range(0,-10,2):" dessa forma irá pular de 2 em 2
+    iniciando do 0 até o -9. Exemplo de saida: 0 -> -2 -> -4 -> -6 -> -8.
+    """
+    for valor in range(0,-10,2):
+        print(range)
 
     # Exemplo 1.0 -> (Verificando o identificado da memoria por variavel)
     v1 = 'a'
