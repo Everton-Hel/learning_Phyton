@@ -56,6 +56,12 @@ def main():
         print(c)
     # ------------------------------------------------------------------
     # Extra: ha possibilidade de por o "ELSE" junto ao "FOR", na qual irá rodar após a interação
+    """
+    For + Range
+    range -> range(start, stop, step) -> na função "range" pode inserir o inicio e fim do contador + o step que é forer a alteração/pula de x valor
+    também pode ser inserido valor negativo, mas deve alterar o star e stop Exemplo: "for valor in range(0,-10,2):" dessa forma irá pular de 2 em 2
+    iniciando do 0 até o -9. Exemplo de saida: 0 -> -2 -> -4 -> -6 -> -8.
+    """
     for I in range(5):
         print(I)
     else:
