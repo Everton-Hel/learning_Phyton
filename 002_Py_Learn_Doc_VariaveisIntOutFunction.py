@@ -9,9 +9,8 @@ def main():
     Variáveis são usadas para salvar algo na memória do computador.
     PEP8: inicie variáveis com letras minúsculas, pode usar
     números e underline _.
-    O sinal de = é o operador de atribuição. Ele é usado para
-    atribuir um valor a um nome (variável).
-    Uso: nome_variavel = expressão 
+    O sinal de = é o operador de atribuição. Ele é usado para atribuir um valor a um nome (variável).
+    Uso: nome_variavel = expressão     
     """    
     # Tipos Primitivos
         # Ellipsis (... -> insirir o 3 pontinho tem a ação de que irá continuar e assim consegue debugar sem erros)
@@ -31,6 +30,16 @@ def main():
         # print('Ola mundo') -> imprimi na tela
         # input("Digite aqui: ") -> insere entrada de valores pelo usuário
     # pass
+    # Exemplo esplicativo do interator ->> podendo ser informado das 2 formas "print(iter(texto))" ou "print(texto.__inter__())"
+    """
+    Iterável -> str, range, etc (__iter__)
+    Iterador -> quem sabe entregar um valor por vez
+    next -> me entregue o próximo valor
+    iter -> me entregue seu iterador
+
+    Exemplo: iteratador = iter(texto)  # iterator
+    
+    """
     # Exemplo de String, pode ser quebrado em 1 ou mais linhas, aonde a "/" indica a quebra de linha
     Frase = 'texto 1'\
             'texto 2' \
