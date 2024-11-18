@@ -1,6 +1,6 @@
 | **Sequencia**      | **Link**                                                           | **Descrição**                                                                              |
 |-----------------   |-------------------                                                 |--------------------------------------------------------------------                        |
-|1.0 - Módulo "OS"   | [1.0 Módulo "OS"](#manual-de-git--github-pratico-e-rápido)         |fornece funcionalidades para interagir com o sistema operacional.                           |
+|1.0 - Módulo "OS"   | [1.0 Módulo "OS"](#10---módulo-os)         |fornece funcionalidades para interagir com o sistema operacional.                           |
 |-----------------   |-------------------                                                 |---------------------------------------------------------------------                       |
 
 
